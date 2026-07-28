@@ -1,0 +1,17 @@
+{
+  "name": "@cinatra-ai/contract-matcher-skill",
+  "version": "0.1.0",
+  "license": "Apache-2.0",
+  "description": "Classifies an attached resource as a legal Contract document. Extracted from @cinatra-ai/contract-artifact (cinatra#2090).",
+  "type": "module",
+  "files": [
+    "skills"
+  ],
+  "cinatra": {
+    "apiVersion": "cinatra.ai/v1",
+    "kind": "skill",
+    "displayName": "Contract Matcher Skill",
+    "skillRole": "matcher",
+    "dependencies": []
+  }
+}
